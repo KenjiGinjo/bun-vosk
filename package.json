@@ -1,7 +1,7 @@
 {
   "name": "bun-vosk",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "API to Vosk (https://alphacephei.com/vosk/)",
   "license": "MIT",
   "repository": {
