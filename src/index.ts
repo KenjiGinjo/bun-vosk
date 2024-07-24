@@ -214,7 +214,7 @@ export class Recognizer<
     vosk_recognizer_set_spk_model(this.handle, spk_model.handle)
   }
 
-  acceptWaveform(data: Buffer) {
+  acceptWaveform(data: Buffer | Uint8Array) {
     return vosk_recognizer_accept_waveform(this.handle, data, data.length)
   }
 
